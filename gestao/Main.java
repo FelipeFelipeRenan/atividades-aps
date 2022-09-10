@@ -15,6 +15,10 @@ public class Main {
 
         double limite = sc.nextDouble();
 
+        sc.close();
+
+
+
         Presidente pres = new Presidente(suc, limite);
         Gerente ger = new Gerente(pres, limite);
         Diretor dir = new Diretor(ger, limite);
