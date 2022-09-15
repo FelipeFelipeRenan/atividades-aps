@@ -1,4 +1,4 @@
-public class jadlog implements EmpresaStrategy{
+public class Jadlog implements EmpresaStrategy{
 
     @Override
     public double calcularFrete( double valor) {
