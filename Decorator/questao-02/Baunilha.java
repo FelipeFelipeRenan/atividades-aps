@@ -3,7 +3,7 @@ public class Baunilha implements SaborStrategy{
     @Override
     public double preco() {
         // TODO Auto-generated method stub
-        return 0;
+        return 13.0;
     }
     
     
